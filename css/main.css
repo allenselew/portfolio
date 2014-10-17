@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Hind:300,400,700);
+
+body {
+	font-family: 'Hind', 'Helvetica', sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+	color: #06192E;
+}
+
+header {
+	position: relative;
+	border-bottom-width: 5px;
+	border-bottom-style: solid; 
+	border-bottom-color: #4EAE47;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav a:hover, nav a:focus {
+	color: #4EAE47;
+	text-decoration: none;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 1em;
+}
+
+#leftmost-nav-element {
+	padding-left: 0;
+}
+
+@media (min-width: 992px) {
+
+nav {
+	position: absolute;
+	top: 2em;
+	right: 1em;
+}
+
+}
