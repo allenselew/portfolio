@@ -4,41 +4,43 @@ body {
 	font-family: 'Hind', 'Helvetica', sans-serif;
 	font-size: 18px;
 	font-weight: 300;
-	color: #06192E;
+	color: black;
+	text-align: center;
 }
 
-header {
-	position: relative;
-	border-bottom-width: 5px;
-	border-bottom-style: solid; 
-	border-bottom-color: #4EAE47;
-}
-
-nav ul {
-	padding: 0;
-}
-
-nav a:hover, nav a:focus {
-	color: #4EAE47;
-	text-decoration: none;
-}
-
-nav li {
-	list-style-type: none;
-	display: inline-block;
-	padding-left: 1em;
-}
-
-#leftmost-nav-element {
-	padding-left: 0;
-}
-
-@media (min-width: 992px) {
-
-nav {
+#responsearea {
 	position: absolute;
-	top: 2em;
-	right: 1em;
+	height: 100%;
+	left: 500px;
+	top: 15%;
 }
 
+#responsewrapper {
+	text-align: left;
 }
+
+#leftnav {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	background-color: #eee;
+}
+
+.response img {
+	max-height: 100px;
+	max-width: 100px;
+}
+
+.response {
+	padding: 20px;
+}
+
+.response:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+
+.faded {
+	opacity: 0.6;
+}
+
