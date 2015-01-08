@@ -5,25 +5,27 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 	color: black;
-	text-align: center;
 }
 
 #responsearea {
-	position: absolute;
-	height: 100%;
-	left: 500px;
-	top: 15%;
+	position: relative;
+	display: inline-block;
+	left: 400px;
+	width: 700px;
 }
 
 #responsewrapper {
 	text-align: left;
+	overflow: auto;
 }
 
 #leftnav {
-	position: absolute;
-	top: 25%;
-	left: 0;
-	background-color: #eee;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-left: -10px;
+	top: 200px;
+	text-align: center;
 }
 
 .response img {
@@ -33,11 +35,12 @@ body {
 
 .response {
 	padding: 20px;
+	background-color: #eee;
 }
 
 .response:hover {
 	cursor: pointer;
-	background-color: #ddd;
+	background-color: #ddd !important;
 }
 
 .faded {

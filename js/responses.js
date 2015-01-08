@@ -2,6 +2,10 @@
 
 $('.response').click(function() {
 	display((this).id);
+	$('.response').each(function () {
+		$(this).css("background-color", "#eee");
+	});
+	$(this).css("background-color", "#ddd");
 });
 
 function display(id) {
